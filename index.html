@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Lucille Store</title>
+  <link rel="icon" href="imagenes\LucilleStoreLogo.png" type="image/gif" sizes="16x16">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>  
+  <!--material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--enlazamos nuestro archivo propio de estilos css-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!--FontAwesome Icons-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--enlazamos nuestro archivo propio de codigo java script-->
+  <script src="js/myscripts.js"></script>
+</head>
+<body>
+  <!--Barra de navegacion principal-->
+  <nav> 
+    <div class="nav-wrapper light-blue" id="navTitle">
+      <div class="container">
+        <nav class="transparent z-depth-0">
+          <div class="nav-wrapper">
+            <!--logo-->
+            <a href="index.html" class="brand-logo"><img class="responsive-img" src="imagenes\LucilleStoreLogo.png" id="imgLogo" alt="Logo" title="Logo de Lucille Store"></a>            
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <!--iconos redes sociales-->
+            <ul class="right hide-on-med-and-down">
+              <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes"></i></a></li>
+              <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes"></i></a></li>
+              <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes"></i></a></li>
+              <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes"></i></a></li>
+            </ul>
+            <ul class="right hide-on-med-and-down">
+              <li><a href="ofertas.html" title="Ofertas">Ofertas</a></li>
+              <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+            </ul>
+
+            <ul class="side-nav" id="mobile-demo">
+              <li><a href="ofertas.html" title="Oferta">Ofertas</a></li>
+              <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+              <!--iconos redes sociales-->
+              <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes"></i></a></li>
+              <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes"></i></a></li>
+              <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes"></i></a></li>
+              <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes"></i></a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
+  </nav>
+  <!--contenedor parallax-->
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center light-blue-text text-lighten-2" id="companyName">Lucille Store</h1>
+        <div class="row center" id="divSlogan">
+          <h5 class="header col s12 black-text" id="companySlogan">La tienda donde puedes encontrar todo lo que necesitas a los mejores precios</h5>
+        </div>
+        <div class="row center">
+          <a href="index.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Entrar a la Tienda</a>
+        </div>
+        <br><br>
+
+      </div>
+
+    </div>
+    <!--inclusion de imagen parallax-->
+    <div class="parallax"><img src="imagenes/bgImage-ClothesStore.jpg" alt="Imagen de Fondo - Ropa Casual" title="Imagen de Fondo - Ropa Casual"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <!--   Cards Section   -->
+      <div class="row">
+        <div class="col s12 m4">
+
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="imagenes/casualClothes.jpg" alt="Ropa Casual" title="Imagen de Ropa asual">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator light-blue-text text-darken-4">Ropa Casual<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">En diferentes estilos</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title light-blue-text text-darken-4">Ropa Casual<i class="material-icons right">close</i></span>
+                  <p>Contamos con una gran variedad de ropa casual para diferentes edades.</p>
+                </div>
+              </div>
+
+        </div>
+
+        <div class="col s12 m4">
+
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="imagenes/shoes.jpg" alt="Zapatos" title="Zapatos">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator light-blue-text text-darken-4">Zapatos<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">De marcas reconocidas</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title light-blue-text text-darken-4">Zapatos<i class="material-icons right">close</i></span>
+                  <p>Aprovecha nuestras ofertas en diferentes estilos y tamaños.</p>
+                </div>
+              </div>
+
+        </div>
+
+                <div class="col s12 m4">
+
+              <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                  <img class="activator" src="imagenes/purse.jpg" alt="Carteras" title="Carteras">
+                </div>
+                <div class="card-content">
+                  <span class="card-title activator light-blue-text text-darken-4">Carteras<i class="material-icons right">more_vert</i></span>
+                  <p><a href="#">De las mejores marcas</a></p>
+                </div>
+                <div class="card-reveal">
+                  <span class="card-title light-blue-text text-darken-4">Carteras<i class="material-icons right">close</i></span>
+                  <p>Aprovecha nuestras ofertas de carteras originales de la más alta calidad.</p>
+                </div>
+              </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <!--contenedor de imagen parallax-->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+        </div>
+      </div>
+    </div>
+    <!--inclusion de imagen parallax-->
+    <div class="parallax"><img src="imagenes/bgImageClothesStore2.jpg" alt="Unsplashed background img 2" title="Ropa Casual"></div>
+  </div>
+    <!--listado de productos-->
+    <div class="slider">
+      <ul class="slides">
+        <li>
+          <img src="imagenes/CasualClothesSlider.jpg" alt="Ropa Casual" title="Ropa Casual"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>Ropa Casual</h3>
+            <h5 class="light grey-text text-lighten-3">Moda y Estilo para tu Personalidad!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/shoesStoreSlider.jpg" alt="Zapatos" title="Zapatos"> <!-- random image -->
+          <div class="caption left-align">
+            <h3>Zapatos</h3>
+            <h5 class="light grey-text text-lighten-3">Tu marca hace la diferencia!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/purseStoreSlider.jpg" alt="Carter" title="Carteras"> <!-- random image -->
+          <div class="caption right-align">
+            <h3>Carteras</h3>
+            <h5 class="light grey-text text-lighten-3">Dale a la moda una segunda oportunidad!</h5>
+          </div>
+        </li>
+        <li>
+          <img src="imagenes/KidsClothesStore.jpg" alt="Ropa para Niños" title="Ropa para Niños"> <!-- random image -->
+          <div class="caption center-align">
+            <h3>Ropa para Niños</h3>
+            <h5 class="light grey-text text-lighten-3">Creciendo juntos!</h5>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+        <!--pie de pagina-->
+        <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Acerca de Nosotros</h5>
+                <p class="grey-text text-lighten-4">Aprovecha nuestras ofertas permanentes por cambio de temporada.</p>
+                <div>
+                  <ul>
+                      <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes footer"></i></a></li>
+                      <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes footer"></i></a></li>
+                      <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes footer"></i></a></li>
+                      <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes footer"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Enlaces</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="ofertas.html">Ofertas</a></li>
+                  <li><a class="grey-text text-lighten-3" href="contacto.html">Contacto</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Overlogy SRL
+            <a class="grey-text text-lighten-4 right" href="index.html"><i class="fa fa-arrow-up redes" title="Inicio"></i></a>
+            </div>
+          </div>
+        </footer>
+
+</body>
+</html>

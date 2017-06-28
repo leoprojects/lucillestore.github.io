@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Contacto</title>
+  <link rel="icon" href="imagenes\LucilleStoreLogo.png" type="image/gif" sizes="16x16">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"></script>  
+  <!--material icons-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--enlazamos nuestro archivo propio de estilos css-->
+  <link rel="stylesheet" href="css/estilos.css">
+  <!--FontAwesome Icons-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--enlazamos nuestro archivo propio de codigo java script-->
+  <script src="js/myscripts.js"></script>
+</head>
+<body>
+<!--barra principal de navegacion-->
+<nav> 
+  <div class="nav-wrapper light-blue" id="navTitle">
+    <div class="container">
+      <nav class="transparent z-depth-0">
+        <div class="nav-wrapper">
+          <!--logo-->
+          <a href="index.html" class="brand-logo"><img class="responsive-img" src="imagenes\LucilleStoreLogo.png" id="imgLogo" alt="Logo" title="Logo"></a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <!--iconos redes sociales-->
+          <ul class="right hide-on-med-and-down">
+            <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes"></i></a></li>
+            <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes"></i></a></li>
+            <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes"></i></a></li>
+            <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes"></i></a></li>
+          </ul>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="ofertas.html" title="Oferta">Ofertas</a></li>
+            <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+          </ul>
+
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="ofertas.html" title="Oferta">Ofertas</a></li>
+            <li><a href="contacto.html" title="Contacto">Contacto</a></li>
+          
+            <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes"></i></a></li>
+            <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes"></i></a></li>
+            <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes"></i></a></li>
+            <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes"></i></a></li>
+          </ul>
+        </div>
+      </nav>      
+    </div> 
+  </div>
+</nav>        
+
+<div class="container">
+
+  <div class="collection" id="sideCollection">
+    <h2 id="conctactTitle">Contacto</h2>
+    <section>
+        <div class="row">
+          <form class="col s12">
+            <div class="row dataField">
+              <div class="input-field col s6">
+                <input id="first_name" type="text" class="validate">
+                <label for="first_name">Nombre</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name">Apellido</label>
+              </div>
+            </div>
+            <div class="row dataField">
+              <div class="input-field col s6">                
+                <input id="first_name" type="text" class="validate">                
+                <label for="first_name"><i class="material-icons">phone</i>Télefono</label>
+              </div>
+              <div class="input-field col s6">
+                <input id="last_name" type="text" class="validate">
+                <label for="last_name"><i class="material-icons">email</i>Email</label>
+              </div>
+            </div>
+            <a class="waves-effect waves-light btn right">Enviar</a>
+          </form>
+        </div>
+    </section>
+  </div>
+  <!--mapa con la ubicacion de la empresa-->
+  <div class="collection responsive-img" id="sideCollection">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.851642207758!2d-69.86106933367263!3d18.4903780911154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf87d7d8ab0cf7%3A0xc9ba241a06e4acad!2s0-ESTRES!5e0!3m2!1ses!2ses!4v1498659888574" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+
+</div>
+  <!--pie de la pagina-->
+  <footer class="page-footer" id="ofertasPageFooter">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Acerca de Nosotros</h5>
+          <p class="grey-text text-lighten-4">Aprovecha nuestras ofertas permanentes por cambio de temporada.</p>
+          <div>
+            <ul>
+              <li><a href="https://www.facebook.com" title="Facebook"><i class="fa fa-facebook redes"></i></a></li>
+              <li><a href="https://twitter.com/" title="Twitter"><i class="fa fa-twitter redes"></i></a></li>
+              <li><a href="https://www.instagram.com/" title="Instagram"><i class="fa fa-instagram redes"></i></a></li>
+              <li><a href="https://www.youtube.com" title="Youtube"><i class="fa fa-youtube redes"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Enlaces</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="ofertas.html" title="Ofertas">Ofertas</a></li>
+            <li><a class="grey-text text-lighten-3" href="contacto.html" title="Contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 Overlogy SRL
+      <a class="grey-text text-lighten-4 right" href="index.html"><i class="fa fa-arrow-up redes" title="Inicio"></i></a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

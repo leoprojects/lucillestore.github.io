@@ -1,0 +1,112 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*dimensiones del logo*/
+#imgLogo {
+	width: 150px;
+	height: 100px;
+}
+/*dimensiones de la barra de navegacion*/
+#navTitle {
+	height: 100px;	
+}
+/*tipo de letra para el nombre del negocio*/
+#companyName {
+	font-family: neuropol;
+}
+/*tipo de letra para el slogan del negocio*/
+#companySlogan {
+	font-family: serif;
+}
+/*ubicacion del logo del negocio*/
+#divSlogan {
+	margin-bottom: 25px;
+}
+/*color del fondo de la pagina*/
+.page-footer {
+	background-color: #0066ff;
+}
+/*tamaño para los elementos de lista con link*/
+a i {
+	width: 20px;
+	height: 20px;	
+}
+
+p.grey-text {
+	margin-bottom: 15px;
+}
+
+/*configuracion de los elementos de redes*/
+.redes {
+	font-size: 15px;
+	float: left;
+	margin-left: 15px;
+	color: #ffffff;
+}
+/*cambio de tamaño de los iconos de redes*/
+.redes:hover {
+	font-size: 30px;
+	transition: .8s;
+	color: #ffd700;
+}
+/*dimension de la coleccion para navegacion*/
+#sideCollection {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+/*configuracion de los titulos en base al tamaño de la pantalla*/
+@media screen and (max-width: 1024px) {
+    #onsaleTitle, #conctactTitle {
+        font-size: 40px;
+    }
+}
+/*configuracion de los titulos en base al tamaño de la pantalla*/
+@media screen and (max-width: 480px) {
+    #onsaleTitle, #conctactTitle {
+        font-size: 20px;        
+    }
+    #divConctactTitle {
+    	margin-top: 50px;
+    }
+}
+
+#onsaleClothes {
+	float: left;
+}
+/*ubicacion del contenedor de ofertas*/
+#onsaleContainer {
+	margin-bottom: 10%;
+}
+/*tamaño del card para zapatos*/
+.cardZapatos {
+	width: 250px;
+	height: 250px;
+}
+/*configuracion de los titulos para ofertas y contactos*/
+#onsaleTitle, #conctactTitle {
+	text-align: center;
+	margin-top: 35px;
+	color: teal;
+}
+/*padding para los campos de contacto*/
+.dataField {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/*dimension del iframe para video y mapa*/
+iframe {
+	width: 100%;
+	height: 300px;
+}
+
+.btn {
+	margin-right: 15px;
+}
+
+i.fa-arrow-up {
+	width: 10px;
+	height: 10px;
+}
